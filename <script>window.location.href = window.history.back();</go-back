@@ -2,6 +2,11 @@
 <script>window.location.href = window.history.back();</script>
 <?php header('location: ../'); 
 
+//reload same url 
+<script>>window.location.href = window.location.reload();</script>
+header('Location: '.$_SERVER['REQUEST_URI']);
+
+
 
 
 
